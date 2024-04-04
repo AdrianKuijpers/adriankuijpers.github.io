@@ -1,18 +1,17 @@
 * {
-text-align: center;
+text-align: left;
 font-size: 20px;
+margin-left: 10px;
 }
 
 .title {
-    text-align: center;
     font-size: 50px;
 }
 
 .logo {
-    text-align: center;
+    float: right;
 }
 
 p {
     text-align: left;
-    margin-left: 25px;
 }
