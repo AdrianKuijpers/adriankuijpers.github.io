@@ -1,17 +1,32 @@
 * {
+    font-family: 'Times New Roman', Times, serif;
 text-align: left;
 font-size: 20px;
-margin-left: 10px;
+margin: 0px;
+padding: 0px;
+}
+
+/*Top bar with navigation*/
+
+header {
+    background-color: darkgreen;
+    border: 2px solid black;
 }
 
 .title {
-    font-size: 50px;
+    font-size: 40px;
+}
+
+a {
+    font-size: 40px;
 }
 
 .logo {
     float: right;
+    width: auto;
+    height: auto;
+    position: relative;
 }
 
-p {
-    text-align: left;
-}
+/*Body*/
+
