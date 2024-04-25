@@ -12,61 +12,80 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <header>
-            <nav>
-                <div class="row align-items-start">
-                    <div class="col-sm">
-                        <h1 class="title">Portfolio van Adrian Kuijpers</h1>
-                        <a href="/index.html">Home</a>
-                        <a href="/projecten.html">Projecten</a>
-                        <a href="/ervaring.html">Ervaring</a>
+    <header>
+    <div class="container-sm">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid bg-light nav-r">
+                      <a class="navbar-brand" href="#"><img src="/IMG/logo.png" class="logo"></a>
+                        <div class="navbar-nav">
+                          <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+                          <a class="nav-link active" href="/projecten.html">Projecten</a>
+                          <a class="nav-link" href="/ervaring.html">Ervaring</a>
+                      </div>
                     </div>
-                    <div class="col-sm">
-                        <img src="/IMG/logo.png" class="logo">
-                    </div>
-            </nav>
+                  </nav>
+                </div>
         </header>
 
         <main>
-            <div class="container-fluid">
-                <div class="box p1">
-                    <h1>Hoger/Lager</h1>
-                    <p>Hierin moet je een dobbelsteen gooien die hoger/lager is dan de dobbel steen van de tegenstander.
+            <div class="container-fluid row">
+                <div class="card" style="width: 17rem;">
+                    <img class="card-img-top" src="/IMG/Hoger-Lager screenshot.png" alt="Hoger-Lager image">
+                    <div class="card-body">
+                      <h5 class="card-title">Hoger/Lager</h5>
+                      <p class="card-text">>Hierin moet je een dobbelsteen gooien die hoger/lager is dan de dobbel steen van de tegenstander.
                         Ik had samengewerkt aan dit project met een ander persoon door mate van de meeste JavaScript te
                         coderen. Selecteer de afbeelding om redirect te worden naar de GitHub pagina.</p>
-                    <a class="proj" href="https://github.com/AdrianKuijpers/Hoger-Lager-Final-Adrian-en-Bas">project1</a>
-                </div>
-                <div class="box p2">
-                    <h1>Zeeslag</h1>
-                    <p>In dit spel moet je schepen plaatsen en om de beurt een vak selecteren om een schip te raken.
+                      <a href="https://github.com/AdrianKuijpers/Hoger-Lager-Final-Adrian-en-Bas" class="btn btn-primary">GitHub Link</a>
+                    </div>
+                  </div>
+
+                  <div class="card" style="width: 17rem;">
+                    <img class="card-img-top" src="/IMG/zeeslagbackground.PNG" alt="Zeeslag image">
+                    <div class="card-body">
+                      <h5 class="card-title">Zeeslag</h5>
+                      <p class="card-text">>In dit spel moet je schepen plaatsen en om de beurt een vak selecteren om een schip te raken.
                         Ik heb het meeste zelf gecodeerd en communicatief met het team van 3 personen ge-overlegd over
                         het voortgang ervan. Selecteer de afbeelding om redirect te worden naar de GitHub pagina.</p>
-                    <a class="proj" href="https://github.com/AdrianKuijpers/Hoger-Lager-Final-Adrian-en-Bas">Project2</a>
+                      <a href="https://github.com/AdrianKuijpers/Zeeslag" class="btn btn-primary">GitHub Link</a>
+                    </div>
                 </div>
-                <div class="box p3">
-                    <h1>Webcatalogus</h1>
-                    <p>Ik heb in dit project met een team van 3 personen een Webcatalogus gemaakt die op een JS
+
+                  <div class="card" style="width: 17rem;">
+                    <img class="card-img-top" src="/IMG/Webcatalogus.png" alt="Webcatalogus image">
+                    <div class="card-body">
+                      <h5 class="card-title">Webcatalogus</h5>
+                      <p class="card-text">>Ik heb in dit project met een team van 3 personen een Webcatalogus gemaakt die op een JS
                         (JavaScript) server draait.
                         Ik had geholpen met communicatie, het coderen van links, objecten in een grid plaatsen en de
                         mediaquery's. Selecteer de afbeelding om redirect te worden naar de GitHub pagina.</p>
-                    <a class="proj" href="https://github.com/AdrianKuijpers/Webcatalogus">Project3</a>
-                </div>
-                <div class="box p4">
-                    <h1>Escape Room</h1>
-                    <p>In dit spel zal je moeten ontsnappen uit een escape room.
+                      <a href="https://github.com/AdrianKuijpers/Webcatalogus" class="btn btn-primary">GitHub Link</a>
+                    </div>
+                  </div>
+
+                  <div class="card" style="width: 17rem;">
+                    <img class="card-img-top" src="/IMG/EscapeRoom.png" alt="EscapeRoom image">
+                    <div class="card-body">
+                      <h5 class="card-title">Escape Room</h5>
+                      <p class="card-text">>In dit spel zal je moeten ontsnappen uit een escape room.
                         Ik had met een team van 4 meerdere gedeeltes gecodeerd en het team geholpen met puzzel ideeën.
                         Selecteer de afbeelding om redirect te worden naar de GitHub pagina.</p>
-                    <a class="proj" href="https://github.com/AdrianKuijpers/Escape-Room">Project4</a>
-                </div>
-                <div class="box p5">
-                    <h1>Snake</h1>
-                    <p>In dit spel zal je een snake beheersen en deze gebruiken om fruit te eten voor een hogere score.
+                      <a href="https://github.com/AdrianKuijpers/Escape-Room" class="btn btn-primary">GitHub Link</a>
+                    </div>
+                  </div>
+
+                  <div class="card" style="width: 17rem;">
+                    <img class="card-img-top" src="/IMG/Snake.png" alt="Snake image">
+                    <div class="card-body">
+                      <h5 class="card-title">Snake</h5>
+                      <p class="card-text">>In dit spel zal je een snake beheersen en deze gebruiken om fruit te eten voor een hogere score.
                         Ik heb alles zelf gecodeerd en werkend gekregen. Selecteer de afbeelding om redirect te worden
                         naar de GitHub pagina.</p>
-                    <a class="proj" href="https://github.com/AdrianKuijpers/Snake-Game">Project5</a>
+                      <a href="https://github.com/AdrianKuijpers/Snake-Game" class="btn btn-primary">GitHub Link</a>
+                    </div>
+                  </div>
+
                 </div>
-            </div>
             <div class="box p3">
                 <div class="gmap_canvas">
                     <iframe width="90%" height="650px" id="gmap_canvas"
