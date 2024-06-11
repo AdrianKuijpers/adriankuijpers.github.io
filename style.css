@@ -2,6 +2,7 @@
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
     font-size: 20px;
+    padding-left: 0;
     word-wrap: break-word
 }
 
@@ -48,6 +49,11 @@ a {
 .card-img-top {
     width: 100%;
     margin: 5px;
+    
+}
+
+.card {
+    padding-left: 0;
 }
 
 /*Projecten*/
